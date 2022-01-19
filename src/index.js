@@ -1,1 +1,1 @@
-console.log("Hali!");
+import { loadPage } from "./js01";
