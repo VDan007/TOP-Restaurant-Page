@@ -1,1 +1,3 @@
-import { loadPage } from "./js01";
+import  loadPage  from "./js01"
+
+loadPage();

@@ -1,5 +1,5 @@
 
-(function loadPage(){ 
+export function loadPage(){ 
 const content = document.querySelector("#content");
 const header = document.createElement("div");
 header.classList.add("header");
@@ -17,6 +17,5 @@ para.textContent ="This restaurant is great. Its my restaurant. I really cant co
 main.append(para);
 
 
-})();
+}
 
-export {loadPage};
