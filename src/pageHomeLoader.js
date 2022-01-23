@@ -1,6 +1,11 @@
+import{remove} from "./remove.js"
 
-export  function loadPage(){ 
-const content = document.querySelector("#content");
+export  function loadHomePage(){  
+remove();
+const body = document.querySelector(".body");
+const content = document.createElement('div');
+content.setAttribute('id','content');
+body.appendChild(content);
 const header = document.createElement("div");
 const mainTitle = document.createElement("h1");
 const image = document.createElement("img");

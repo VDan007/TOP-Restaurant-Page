@@ -4,3 +4,22 @@
     align-items:center;
     background-color: red;
 }
+#navBarUl{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    padding-left :20px;
+    padding-right :20px;
+}
+
+#navBarUl li{
+   background-color: black;
+   color:red;
+   padding: 5px;
+   
+}
+
+#navBarUl li:hover{
+  transform : scale(1.2); 
+  cursor: pointer;
+}
