@@ -1,3 +1,4 @@
+import {loadContactPage} from './pageContactLoader.js'
 import {loadHomePage} from "./pageHomeloader.js"
 import {loadMenuPage} from "./pageMenuLoader.js"
 import {remove} from "./remove.js"
