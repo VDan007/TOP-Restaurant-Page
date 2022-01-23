@@ -9,6 +9,7 @@ content.setAttribute('id','content');
 body.appendChild(content);
 
 const menu1 = document.createElement('div');
+menu1.classList='menu';
 const menu1txt = document.createElement('h2');
 menu1txt.textContent ="Empty plate wariation 1";
 const emptyPLateImg1 = document.createElement('img');
@@ -21,6 +22,7 @@ menu1.appendChild(emptyPLateImg1);
 
 
 const menu2 = document.createElement('div');
+menu2.classList='menu';
 const menu2txt = document.createElement('h2');
 menu2txt.textContent ="Empty plate wariation 2";
 const emptyPLateImg2 = document.createElement('img');
@@ -34,6 +36,7 @@ menu2.appendChild(emptyPLateImg2);
 
 
 const menu3 = document.createElement('div');
+menu3.classList='menu';
 const menu3txt = document.createElement('h2');
 menu3txt.textContent ="Empty plate wariation 3";
 const emptyPLateImg3 = document.createElement('img');
@@ -46,6 +49,7 @@ menu3.appendChild(emptyPLateImg3);
 
 
 const menu4 = document.createElement('div');
+menu4.classList='menu';
 const menu4txt = document.createElement('h2');
 menu4txt.textContent ="Our speciality: The mighty empty Tray";
 const emptyPLateImg4 = document.createElement('img');
