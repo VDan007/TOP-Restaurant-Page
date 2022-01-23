@@ -1,3 +1,4 @@
-import  loadPage  from "./js01"
+ import {loadPage} from "./pageLoader.js"
+ import "./style.css";
 
-loadPage();
+ loadPage();
